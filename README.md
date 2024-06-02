@@ -41,7 +41,7 @@ The following libraries are used in this project:
 
 ## Repository Structure
 
-- `model_creation.py`: Python script containing the code for creating and training the machine learning model.
+- `inflationratepredictor.py`: Python script containing the code for creating and training the machine learning model.
 - `clean_data.csv`: Cleaned and preprocessed dataset used for model training.
 - `model.h5`: Trained neural network model saved in HDF5 format.
 - `scaler.pkl`: Scaler object used for data normalization saved using the pickle module.
@@ -52,7 +52,7 @@ To use the Inflation Predictor ML Model:
 
 1. Clone the repository to your local machine.
 2. Ensure that Python and the required libraries are installed.
-3. Run the `model_creation.py` script to create and train the model.
+3. Run the `inflationratepredictor.py` script to create and train the model.
 4. After training, the model and scaler will be saved to disk for future use.
 
 ## Frontend
